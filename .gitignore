@@ -1,0 +1,26 @@
+# Hugging Face token / secrets
+.env
+HF_TOKEN
+
+# Trained model + deployment artifacts
+saved_phishing_model/
+space_files/
+distilbert-phishing/
+checkpoints/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+*.bak
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Kaggle cache (large)
+~/.cache/kagglehub/
+.runs/
+results/
